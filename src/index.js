@@ -1,20 +1,28 @@
-import React, { Component } from 'react';
-import {render} from 'react-dom';
+import React, { Component } from "react";
+import { render } from "react-dom";
+import citations from "./citations";
 
 class App extends Component {
-  render(){
-    return(
-      <div>
-       <p>
-         Ma citation
-         <span>- Auteur</span>
-       </p>
-       <button>Une autre citation !</button>
+  state = {};
+
+  generateCitation = () => {
+    const keysArray = Object.keys(citations);
+    const randomKey = keysArray[Math.floor(Math.random() * keysArray.length)];
+    this.setState(citations[randomKey]);
+  };
+
+  render() {
+    return (
+      <div id="app">
+        <p>
+          {this.state.citation}
+          <span>- {this.state.auteur}</span>
+        </p>
+        <button onClick={() => this.generateCitation()}>
+        </button>
       </div>
-    )
+    );
   }
 }
 
-render(
-  <App />, document.getElementById('root')
-);
+render(<App />, document.getElementById("root"));
