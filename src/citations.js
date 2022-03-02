@@ -47,4 +47,54 @@ module.exports = {
     citation:
       "L’homme doit vivre pour son propre intérêt, ne sacrifiant ni lui-même aux autres, ni les autres à lui-même. Vivre pour son propre intérêt signifie que l’accomplissement de son propre bonheur est le plus haut but moral de l’homme.",
   },
+  11: {
+    auteur: "Daniel Desbiens",
+    citation:
+      "L'homme camoufle ses peurs à travers la société qui semble avoir été bâtie dans ce but.",
+  },
+  12: {
+    auteur: "Sigmund Freud",
+    citation:
+      "L'Homme n'a rien de mieux à faire qu'essayer d'être en accord avec lui-même.",
+  },
+  13: {
+    auteur: "Albert Camus",
+    citation:
+      "Penser, ce n'est pas unifier, rendre familière l'apparence sous le visage d'un grand principe. Penser, c'est réapprendre à voir, diriger sa conscience, faire de chaque image un lieu privilégié.",
+  },
+  14: {
+    auteur: "Simone Weil",
+    citation:
+      "Rien au monde ne peut empêcher l'homme de se sentir né pour la liberté. Jamais, quoi qu'il advienne, il nepeut accepter la servitude ; car il pense.",
+  },
+  15: {
+    auteur: "Jean De Lafontaine",
+    citation:
+      "Gardez-vous de rien dédaigner ; surtout quand vous avez à peu près votre compte.",
+  },
+  16: {
+    auteur: "Théophile Funck-Brentano",
+    citation:
+      "La témérité des jugements que nous portons sur les autres est en raison directe des illusions que nous avons sur nous-mêmes.",
+  },
+  17: {
+    auteur: "Daniel Desbiens",
+    citation:
+      "De tout homme ou opinion d’homme; il faut en prendre et en laisser.",
+  },
+  18: {
+    auteur: "Johann Wolfgang Von Goethe",
+    citation:
+      "Veux-tu vivre heureux ? Voyage avec deux sacs, l'un pour donner, l'autre pour recevoir.",
+  },
+  19: {
+    auteur: "Voltaire",
+    citation:
+      "Je désapprouve ce que vous dites, mais je me battrai jusqu'à la mort pour que vous ayez le droit de le dire.",
+  },
+  20: {
+    auteur: "Pierre Augustin de Beaumarchais",
+    citation:
+      "Ce n'est pas d'entreprendre une chose dangereuse, mais d'échapper au péril en la menant à bien.",
+  },
 };

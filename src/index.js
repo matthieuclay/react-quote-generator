@@ -6,9 +6,19 @@ import "./index.scss";
 class App extends Component {
   state = {};
 
+  componentWillMount() {
+    this.generateCitation();
+  }
+
   generateCitation = () => {
     const keysArray = Object.keys(citations);
     const randomKey = keysArray[Math.floor(Math.random() * keysArray.length)];
+
+    if (this.state.citation === citations[randomKey].citation) {
+      this.generateCitation();
+      return;
+    }
+
     this.setState(citations[randomKey]);
   };
 
