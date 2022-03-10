@@ -1,14 +1,10 @@
-import React from "react";
-
-class Quote extends React.Component {
-  render() {
-    return (
-      <p>
-        {this.props.details.quote}
-        <span>— {this.props.details.author}</span>
-      </p>
-    );
-  }
+function Quote({ quote }) {
+  return (
+    <div className="quote">
+      <p>{quote.text}</p>
+      <span>— {quote.author ? quote.author : "Unknown"}</span>
+    </div>
+  );
 }
 
 export default Quote;
