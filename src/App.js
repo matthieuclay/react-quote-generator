@@ -1,10 +1,10 @@
 import "./App.scss";
-import QuotesGenerator from "./components/QuotesGenerator";
+import QuoteGenerator from "./components/QuoteGenerator";
 
 function App() {
   return (
     <div className="App">
-      <QuotesGenerator />
+      <QuoteGenerator />
     </div>
   );
 }

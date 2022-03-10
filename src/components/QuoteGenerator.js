@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import "./QuotesGenerator.scss";
+import "./QuoteGenerator.scss";
 import Quote from "./Quote";
 
 /* response : { author: "", text: "" } */
 const BASE_URL = "https://type.fit/api/quotes";
 
-function QuotesGenerator() {
+function QuoteGenerator() {
   const [quotes, setQuotes] = useState([]);
   const [quote, setQuote] = useState({ author: "", text: "" });
 
@@ -29,8 +29,8 @@ function QuotesGenerator() {
   }
 
   return (
-    <div className="quotes-generator">
-      <h1>Quotes Generator</h1>
+    <div className="quote-generator">
+      <h1>Quote Generator</h1>
       <Quote quote={quote} />
       <button onClick={getQuote}>
         <span className="button_top">Another quote!</span>
@@ -39,4 +39,4 @@ function QuotesGenerator() {
   );
 }
 
-export default QuotesGenerator;
+export default QuoteGenerator;
